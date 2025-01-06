@@ -38,6 +38,6 @@ public class Main {
             System.out.println("Radius sıfırdan küçük olamaz! Radius: " + radius);
             return -1;
         }
-        return Math.PI * Math.pow(radius);
+        return Math.PI * Math.pow(radius, 2);
     }
 }
